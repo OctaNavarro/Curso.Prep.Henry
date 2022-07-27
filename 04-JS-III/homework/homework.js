@@ -171,9 +171,8 @@ function empiezaConNueve(n) {
   //Escribe tu código aquí
   //var numerostr = n.toString();
   var es9;
-  while(n.length>0){
-    es9 = n.pop();
-  }
+  var numerostr = n.toString()
+  es9 = numerostr[0];
   
   if(es9 == 9){
     return true;
